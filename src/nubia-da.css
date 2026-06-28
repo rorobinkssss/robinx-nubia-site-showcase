@@ -5649,13 +5649,14 @@ body.page-store .da-pdp .quantity-row input {
 
   body.page-store .da-pdp .product-gallery.da-gallery .gallery-stage {
     display: block !important;
+    position: relative !important;
     width: 100% !important;
     margin: 0 !important;
     overflow: hidden !important;
     border-radius: 7px 7px 0 0 !important;
     background: transparent !important;
     line-height: 0 !important;
-    clip-path: inset(0 round 7px 7px 0 0) !important;
+    clip-path: none !important;
     -webkit-mask-image: -webkit-radial-gradient(white, black);
   }
 
@@ -5666,13 +5667,18 @@ body.page-store .da-pdp .quantity-row input {
 
   body.page-store .da-pdp .product-gallery.da-gallery .gallery-stage img {
     position: absolute !important;
-    inset: 0 !important;
-    width: 100% !important;
+    top: -10px !important;
+    right: -10px !important;
+    bottom: -10px !important;
+    left: -10px !important;
+    width: calc(100% + 20px) !important;
+    min-width: calc(100% + 20px) !important;
     max-width: none !important;
-    height: 100% !important;
+    height: calc(100% + 20px) !important;
     margin: 0 !important;
     object-fit: cover !important;
-    object-position: center !important;
+    object-position: center 42% !important;
+    transform: translateZ(0) !important;
   }
 
   body.page-store .da-pdp .gallery-thumbs {
