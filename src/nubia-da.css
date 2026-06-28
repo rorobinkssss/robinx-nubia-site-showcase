@@ -5667,17 +5667,17 @@ body.page-store .da-pdp .quantity-row input {
 
   body.page-store .da-pdp .product-gallery.da-gallery .gallery-stage img {
     position: absolute !important;
-    top: -10px !important;
-    right: -10px !important;
-    bottom: -10px !important;
-    left: -10px !important;
-    width: calc(100% + 20px) !important;
-    min-width: calc(100% + 20px) !important;
+    top: -22px !important;
+    right: -22px !important;
+    bottom: -22px !important;
+    left: -22px !important;
+    width: calc(100% + 44px) !important;
+    min-width: calc(100% + 44px) !important;
     max-width: none !important;
-    height: calc(100% + 20px) !important;
+    height: calc(100% + 44px) !important;
     margin: 0 !important;
     object-fit: cover !important;
-    object-position: center 42% !important;
+    object-position: center 60% !important;
     transform: translateZ(0) !important;
   }
 
