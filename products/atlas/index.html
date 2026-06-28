@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas - Nubia</title>
+    <meta name="description" content="Le point d'entrée signature: full body, structure équilibrée, caramel, choco et amandes grillées." />
+    <link rel="icon" href="../../public/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../../src/nubia.css" />
+    <link rel="stylesheet" href="../../src/nubia-da.css" />
+  </head>
+  <body class="page-store page-product" data-route="product" data-product-slug="atlas">
+    <div class="ambient" aria-hidden="true">
+      <canvas id="ambient-canvas"></canvas>
+      <span class="ambient-grid"></span>
+      <span class="ambient-aura"></span>
+    </div>
+    <div class="announcement" aria-label="Offre Nubia">
+    <div class="announcement-track"><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7h11v8H3z" /><path d="M14 10h3l3 3v2h-6z" /><circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" /></svg> <span data-i18n="announce-free-shipping" data-fr="Livraison gratuite à partir de 100 $ / Montréal" data-en="Free shipping over $100 / Montreal">Livraison gratuite à partir de 100 $ / Montréal</span></span><span><span data-i18n="announce-farm" data-fr="Du grain à la tasse" data-en="From the farm to the cup">Du grain à la tasse</span></span><span><span data-i18n="announce-ritual" data-fr="Torréfié pour les rituels quotidiens" data-en="Roasted for daily rituals">Torréfié pour les rituels quotidiens</span></span><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7h11v8H3z" /><path d="M14 10h3l3 3v2h-6z" /><circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" /></svg> <span data-i18n="announce-free-shipping" data-fr="Livraison gratuite à partir de 100 $ / Montréal" data-en="Free shipping over $100 / Montreal">Livraison gratuite à partir de 100 $ / Montréal</span></span><span><span data-i18n="announce-farm" data-fr="Du grain à la tasse" data-en="From the farm to the cup">Du grain à la tasse</span></span><span><span data-i18n="announce-ritual" data-fr="Torréfié pour les rituels quotidiens" data-en="Roasted for daily rituals">Torréfié pour les rituels quotidiens</span></span><span><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7h11v8H3z" /><path d="M14 10h3l3 3v2h-6z" /><circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" /></svg> <span data-i18n="announce-free-shipping" data-fr="Livraison gratuite à partir de 100 $ / Montréal" data-en="Free shipping over $100 / Montreal">Livraison gratuite à partir de 100 $ / Montréal</span></span><span><span data-i18n="announce-farm" data-fr="Du grain à la tasse" data-en="From the farm to the cup">Du grain à la tasse</span></span><span><span data-i18n="announce-ritual" data-fr="Torréfié pour les rituels quotidiens" data-en="Roasted for daily rituals">Torréfié pour les rituels quotidiens</span></span></div>
+  </div>
+  <header class="site-nav">
+    <a class="brand" href="../../index.html" aria-label="Nubia accueil"><span class="brand-word" aria-hidden="true"><span>N</span><span>U</span><span>B</span><span>I</span><span>A</span></span><span class="brand-bean" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15.8 3.5c3.4 2.2 4.9 6.7 3.2 10.7-1.9 4.5-7 6.9-11.2 5.1-4.1-1.7-5.7-6.9-3.6-11.4 2-4.4 7.4-7.1 11.6-4.4Z" /><path d="M8.3 18.7c1.3-2.4 1.4-4.4.2-6.5-1.1-2-.8-4 .9-6.1" /></svg></span></a>
+    <nav aria-label="Navigation principale">
+      <a class="" href="../../index.html"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 10.5 12 3l9 7.5" /><path d="M5 9.5V21h5v-6h4v6h5V9.5" /></svg><span data-i18n="nav-home" data-fr="Accueil" data-en="Home">Accueil</span></a><a class="" href="../../collections/all/index.html"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h7v7H4z" /><path d="M13 4h7v7h-7z" /><path d="M4 13h7v7H4z" /><path d="M13 13h7v7h-7z" /></svg><span data-i18n="nav-catalogue" data-fr="Catalogue" data-en="Shop">Catalogue</span></a><a class="" href="../../pages/apprendre/index.html"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 19.5V5.2A2.2 2.2 0 0 1 6.2 3H20v16H6.2A2.2 2.2 0 0 0 4 21.2" /><path d="M8 7h8" /><path d="M8 11h6" /></svg><span data-i18n="nav-learn" data-fr="Guide" data-en="Guide">Guide</span></a><a class="" href="../../pages/contact/index.html"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h16v12H4z" /><path d="m4 7 8 6 8-6" /></svg><span data-i18n="nav-contact" data-fr="Contact" data-en="Contact">Contact</span></a>
+    </nav>
+    <div class="nav-actions">
+      <button type="button" class="icon-button" data-search-toggle aria-label="Recherche"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.2 4.2" /></svg><span data-i18n="nav-search" data-fr="Recherche" data-en="Search">Recherche</span></button>
+      <button type="button" class="cart-button" data-cart-toggle aria-label="Panier"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="9" cy="20" r="1.5" /><circle cx="18" cy="20" r="1.5" /><path d="M3 4h2.2l2 11.5a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 1.9-1.4L21 8H6.1" /></svg><span data-i18n="nav-cart" data-fr="Panier" data-en="Cart">Panier</span><strong data-cart-count>0</strong></button>
+      <button type="button" class="lang-button" data-lang-toggle aria-label="Changer la langue"><span data-lang-current>FR</span><span class="lang-separator">/</span><span data-lang-next>EN</span></button>
+    </div>
+  </header><main class="da-site da-pdp tone-blue" style="--accent:#2e86ff;--soft:rgba(46, 134, 255, 0.21)">
+      <section class="da-pdp-commerce" data-product-page>
+        <div class="product-gallery da-gallery" data-card data-product-gallery>
+          <div class="gallery-stage">
+            <img class="is-active" src="../../public/images/product-images/atlas/atlas-01.png" alt="Atlas image 1" data-gallery-slide /><img class="" src="../../public/images/product-images/atlas/atlas-02.png" alt="Atlas image 2" data-gallery-slide /><img class="" src="../../public/images/product-images/atlas/atlas-03.png" alt="Atlas image 3" data-gallery-slide /><img class="" src="../../public/images/product-images/atlas/atlas-04.png" alt="Atlas image 4" data-gallery-slide /><img class="" src="../../public/images/product-images/atlas/atlas-05.png" alt="Atlas image 5" data-gallery-slide />
+          </div>
+          <div class="gallery-controls">
+            <button type="button" data-gallery-prev><span data-i18n="gallery-prev" data-fr="Prev" data-en="Prev">Prev</span></button>
+            <span data-gallery-status>1 / 5</span>
+            <button type="button" data-gallery-next><span data-i18n="gallery-next" data-fr="Next" data-en="Next">Next</span></button>
+          </div>
+          <div class="gallery-thumbs">
+            <button class="is-active" type="button" data-gallery-thumb="0" aria-label="Image 1"><img src="../../public/images/product-images/atlas/atlas-01.png" alt="Atlas apercu 1" /></button><button class="" type="button" data-gallery-thumb="1" aria-label="Image 2"><img src="../../public/images/product-images/atlas/atlas-02.png" alt="Atlas apercu 2" /></button><button class="" type="button" data-gallery-thumb="2" aria-label="Image 3"><img src="../../public/images/product-images/atlas/atlas-03.png" alt="Atlas apercu 3" /></button><button class="" type="button" data-gallery-thumb="3" aria-label="Image 4"><img src="../../public/images/product-images/atlas/atlas-04.png" alt="Atlas apercu 4" /></button><button class="" type="button" data-gallery-thumb="4" aria-label="Image 5"><img src="../../public/images/product-images/atlas/atlas-05.png" alt="Atlas apercu 5" /></button>
+          </div>
+        </div>
+        <aside class="product-buy-box da-buy-box" data-card>
+          <span class="da-label">Profil equilibre</span>
+          <h2 data-product-price>$15.40 CAD</h2>
+          <p><span data-i18n="pdp-atlas-promise" data-fr="Pour une tasse stable, élégante, facile à recommander et difficile à regretter." data-en="For a stable, elegant cup that is easy to recommend and hard to regret.">Pour une tasse stable, élégante, facile à recommander et difficile à regretter.</span></p>
+          <div class="variant-row" data-variant-row>
+            <button class="active" type="button" data-variant="340 g" data-variant-price="15.40">340 g</button><button class="" type="button" data-variant="1 kg" data-variant-price="43.43">1 kg</button><button class="" type="button" data-variant="2.27 kg" data-variant-price="87.01">2.27 kg</button>
+          </div>
+          <div class="quantity-row">
+            <button type="button" data-qty-minus>-</button>
+            <input value="1" inputmode="numeric" data-qty-input aria-label="Quantite" />
+            <button type="button" data-qty-plus>+</button>
+          </div>
+          <button class="btn primary full" type="button" data-add-cart data-product="atlas" data-name="Atlas" data-price="15.40"><span data-i18n="da-add-cart" data-fr="Ajouter au panier" data-en="Add to cart">Ajouter au panier</span></button>
+          <button class="btn ghost full" type="button" data-bulk-open data-bulk-name="Atlas" data-bulk-sub="Équilibre / quotidien" data-bulk-accent="#2e86ff" data-bulk-tone="blue" data-bulk-prices='{&quot;340&quot;:15.4,&quot;1000&quot;:40.348000000000006,&quot;2270&quot;:88.396}'><span data-i18n="da-pro-format" data-fr="Calculer format pro" data-en="Calculate pro format">Calculer format pro</span></button>
+          <div class="da-facts">
+            <div><span><span data-i18n="pdp-fact-origin" data-fr="Origine" data-en="Origin">Origine</span></span><strong>Premium Arabica</strong></div>
+            <div><span>Roast</span><strong>Medium roast</strong></div>
+            <div><span>Process</span><strong>Washed</strong></div>
+            <div><span><span data-i18n="pdp-fact-ritual" data-fr="Rituel" data-en="Ritual">Rituel</span></span><strong>Balanced everyday cup</strong></div>
+          </div>
+        </aside>
+        <div class="mobile-buy-dock" data-mobile-buy-dock>
+          <div><strong>Atlas</strong><span data-mobile-dock-price>$15.40 CAD</span></div>
+          <button class="btn primary" type="button" data-add-cart data-product="atlas" data-name="Atlas" data-price="15.40"><span data-i18n="da-add" data-fr="Ajouter" data-en="Add">Ajouter</span></button>
+        </div>
+      </section>
+
+      <section class="da-product-detail">
+        <article data-card>
+          <span class="da-label"><span data-i18n="da-taste-label" data-fr="Lecture tasse" data-en="Cup read">Lecture tasse</span></span>
+          <h2><span data-i18n="da-taste-title" data-fr="Ce que tu vas gouter." data-en="What you will taste.">Ce que tu vas gouter.</span></h2>
+          <p>Atlas est le profil qui porte la collection. Il est assez riche pour vendre la qualité, assez balancé pour devenir le café quotidien.</p>
+        </article>
+        <article data-card>
+          <span class="da-label"><span data-i18n="da-structure-label" data-fr="Structure" data-en="Structure">Structure</span></span>
+          <h2><span data-i18n="da-structure-title" data-fr="Body avant jargon." data-en="Body before jargon.">Body avant jargon.</span></h2>
+          <div class="guide-bars"><div class="guide-bar-row">
+    <span class="bar-name">Body</span>
+    <i><b class="bar-fill" style="width:87%"></b></i>
+    <strong class="bar-val">8.7</strong>
+  </div><div class="guide-bar-row">
+    <span class="bar-name">Acidity</span>
+    <i><b class="bar-fill" style="width:48%"></b></i>
+    <strong class="bar-val">4.8</strong>
+  </div><div class="guide-bar-row">
+    <span class="bar-name">Crema</span>
+    <i><b class="bar-fill" style="width:82%"></b></i>
+    <strong class="bar-val">8.2</strong>
+  </div><div class="guide-bar-row">
+    <span class="bar-name">Sweet</span>
+    <i><b class="bar-fill" style="width:80%"></b></i>
+    <strong class="bar-val">8.0</strong>
+  </div><div class="guide-bar-row">
+    <span class="bar-name">Balance</span>
+    <i><b class="bar-fill" style="width:90%"></b></i>
+    <strong class="bar-val">9.0</strong>
+  </div></div>
+        </article>
+        <article data-card>
+          <span class="da-label"><span data-i18n="da-brew-label" data-fr="Recette" data-en="Recipe">Recette</span></span>
+          <h2><span data-i18n="da-brew-title" data-fr="Pars simple." data-en="Start simple.">Pars simple.</span></h2>
+          <div class="guide-recipe">
+    <div><span>Temp</span><strong>92 C</strong></div>
+    <div><span>Ratio</span><strong>1:2.4</strong></div>
+    <div><span>Time</span><strong>26-30s</strong></div>
+    <div><span>Idéal pour</span><strong>Espresso / Pour-over</strong></div>
+  </div>
+        </article>
+      </section>
+
+      <section class="da-pdp-hero da-scene">
+        <picture class="da-scene-picture">
+    <source media="(max-width: 760px)" srcset="../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-atlas.webp" />
+    <img src="../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-atlas.webp" alt="Atlas Nubia" loading="eager" decoding="async" />
+  </picture>
+        <div class="da-scene-copy da-pdp-copy">
+          <a class="da-back-link" href="../../collections/all/index.html"><span data-i18n="da-back-shop" data-fr="Retour catalogue" data-en="Back to shop">Retour catalogue</span></a>
+          <span class="da-label"><span data-i18n="pdp-atlas-ritual" data-fr="Équilibre de tous les jours" data-en="Everyday balance">Équilibre de tous les jours</span></span>
+          <h1 data-split>Atlas</h1>
+          <p><span data-i18n="pdp-atlas-one-line" data-fr="Le sac qui porte la routine sans devenir banal." data-en="The bag that carries the routine without becoming ordinary.">Le sac qui porte la routine sans devenir banal.</span></p>
+          <div class="da-note-line"><span>Caramel</span><span>Dark chocolate</span><span>Roasted almonds</span><span>Brown sugar</span><span>Toasted grains</span></div>
+        </div>
+      </section>
+
+      <section class="da-product-section da-related">
+        <div class="da-section-head"><div><span class="da-label"><span data-i18n="da-related-label" data-fr="Comparer" data-en="Compare">Comparer</span></span><h2><span data-i18n="da-related-title" data-fr="Autres profils" data-en="Other profiles">Autres profils</span></h2></div></div>
+        <div class="da-product-grid"><article class="da-product-card tone-violet" data-card data-product-card="onyx" data-methods="espresso cappuccino latte mocha" style="--accent:#9b5cff;--soft:rgba(155, 92, 255, 0.22)">
+    <a class="da-product-media" href="../../products/onyx/index.html" aria-label="Voir Onyx">
+      <img src="../../public/images/product-images/onyx/onyx-01.png" alt="Onyx Nubia" loading="lazy" decoding="async" />
+    </a>
+    <div class="da-product-body">
+      <span class="da-product-ritual"><span data-i18n="product-onyx-ritual" data-fr="Profond et crémeux" data-en="Deep and creamy">Profond et crémeux</span></span>
+      <h3>Onyx</h3>
+      <p><span data-i18n="product-onyx-promise" data-fr="Pour espresso, lait, crema dense et finale cacao qui reste." data-en="For espresso, milk drinks, dense crema and a cacao finish that lingers.">Pour espresso, lait, crema dense et finale cacao qui reste.</span></p>
+      <div class="da-note-line"><span>Dark chocolate</span><span>Roasted nuts</span></div>
+      <div class="da-method-line"><small>Espresso</small><small>Cappuccino</small></div>
+      <div class="da-buy-line">
+        <strong>$15.75 CAD</strong>
+        <button type="button" data-add-cart data-product="onyx" data-name="Onyx" data-price="15.75"><span data-i18n="product-onyx-add" data-fr="Ajouter" data-en="Add">Ajouter</span></button>
+      </div>
+      <a class="da-profile-link" href="../../products/onyx/index.html"><span data-i18n="product-onyx-profile-link" data-fr="Voir le profil" data-en="View profile">Voir le profil</span></a>
+    </div>
+  </article><article class="da-product-card tone-sage" data-card data-product-card="cameroun" data-methods="latte cappuccino flat white filter" style="--accent:#7cc94a;--soft:rgba(124, 201, 74, 0.2)">
+    <a class="da-product-media" href="../../products/cameroun/index.html" aria-label="Voir Cameroun">
+      <img src="../../public/images/product-images/cameroun/cameroun-01.png" alt="Cameroun Nubia" loading="lazy" decoding="async" />
+    </a>
+    <div class="da-product-body">
+      <span class="da-product-ritual"><span data-i18n="product-cameroun-ritual" data-fr="Rond et quotidien" data-en="Round and everyday">Rond et quotidien</span></span>
+      <h3>Cameroun</h3>
+      <p><span data-i18n="product-cameroun-promise" data-fr="Pour une tasse simple, ronde et fidèle, avec assez d&#39;origine pour rester intéressante." data-en="For a simple, round and reliable cup, with enough origin character to stay interesting.">Pour une tasse simple, ronde et fidèle, avec assez d'origine pour rester intéressante.</span></p>
+      <div class="da-note-line"><span>Roasted nuts</span><span>Cacao</span></div>
+      <div class="da-method-line"><small>Latte</small><small>Cappuccino</small></div>
+      <div class="da-buy-line">
+        <strong>$14.99 CAD</strong>
+        <button type="button" data-add-cart data-product="cameroun" data-name="Cameroun" data-price="14.99"><span data-i18n="product-cameroun-add" data-fr="Ajouter" data-en="Add">Ajouter</span></button>
+      </div>
+      <a class="da-profile-link" href="../../products/cameroun/index.html"><span data-i18n="product-cameroun-profile-link" data-fr="Voir le profil" data-en="View profile">Voir le profil</span></a>
+    </div>
+  </article><article class="da-product-card tone-copper" data-card data-product-card="titan" data-methods="espresso moka pot french press cold brew" style="--accent:#d87918;--soft:rgba(216, 121, 24, 0.2)">
+    <a class="da-product-media" href="../../products/titan/index.html" aria-label="Voir Titan">
+      <img src="../../public/images/product-images/titan/titan-01.png" alt="Titan Nubia" loading="lazy" decoding="async" />
+    </a>
+    <div class="da-product-body">
+      <span class="da-product-ritual"><span data-i18n="product-titan-ritual" data-fr="Dense et cacao" data-en="Dense and cacao">Dense et cacao</span></span>
+      <h3>Titan</h3>
+      <p><span data-i18n="product-titan-promise" data-fr="Pour ceux qui aiment une tasse robuste, rassurante, presque dessert." data-en="For people who like a robust, reassuring cup with a near-dessert finish.">Pour ceux qui aiment une tasse robuste, rassurante, presque dessert.</span></p>
+      <div class="da-note-line"><span>Dark chocolate</span><span>Cacao nibs</span></div>
+      <div class="da-method-line"><small>Espresso</small><small>Moka pot</small></div>
+      <div class="da-buy-line">
+        <strong>$17.40 CAD</strong>
+        <button type="button" data-add-cart data-product="titan" data-name="Titan" data-price="17.40"><span data-i18n="product-titan-add" data-fr="Ajouter" data-en="Add">Ajouter</span></button>
+      </div>
+      <a class="da-profile-link" href="../../products/titan/index.html"><span data-i18n="product-titan-profile-link" data-fr="Voir le profil" data-en="View profile">Voir le profil</span></a>
+    </div>
+  </article></div>
+      </section>
+    </main><aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="drawer-head">
+      <div><span class="eyebrow"><span data-i18n="drawer-cart" data-fr="Panier" data-en="Cart">Panier</span></span><h2><span data-i18n="drawer-title" data-fr="Sélection Nubia" data-en="Nubia selection">Sélection Nubia</span></h2></div>
+      <button type="button" class="round-button" data-cart-close aria-label="Fermer">x</button>
+    </div>
+    <div class="cart-lines" data-cart-lines></div>
+    <div class="cart-total"><span><span data-i18n="drawer-total" data-fr="Total estimé" data-en="Estimated total">Total estimé</span></span><strong data-cart-total>$0.00 CAD</strong></div>
+    <a class="btn primary full" href="../../cart/index.html"><span data-i18n="drawer-review-cart" data-fr="Voir le panier" data-en="Review cart">Voir le panier</span></a>
+    <a class="btn ghost full" href="../../checkout/index.html"><span data-i18n="drawer-checkout" data-fr="Passer au checkout" data-en="Go to checkout">Passer au checkout</span></a>
+  </aside><section class="search-overlay" id="search-overlay" aria-hidden="true">
+    <div class="search-panel">
+      <div class="drawer-head">
+        <div><span class="eyebrow">Finder</span><h2>Quel rituel tu veux?</h2></div>
+        <button type="button" class="round-button" data-search-close aria-label="Fermer">x</button>
+      </div>
+      <input type="search" data-search-input placeholder="espresso, latte, cacao, smooth..." />
+      <div class="search-results" data-search-results></div>
+    </div>
+  </section><section class="bulk-modal" id="bulk-modal" aria-hidden="true">
+    <div class="bulk-panel">
+      <div class="drawer-head">
+        <div><span class="eyebrow">Calcul pro</span><h2 data-bulk-title>Nubia</h2><p data-bulk-sub>Commande professionnelle locale.</p></div>
+        <button type="button" class="round-button" data-bulk-close aria-label="Fermer">x</button>
+      </div>
+      <div class="bulk-tabs">
+        <button class="active" type="button" data-bulk-qty="10">10 kg</button>
+        <button type="button" data-bulk-qty="20">20 kg</button>
+        <button type="button" data-bulk-qty="50">50 kg</button>
+      </div>
+      <label class="bulk-custom"><span>Kg personnalisé</span><input type="number" min="1" data-bulk-custom placeholder="35" /></label>
+      <div class="bulk-table" data-bulk-results></div>
+      <p class="bulk-note" data-bulk-note></p>
+    </div>
+  </section><footer class="site-footer da-footer">
+    <div><a class="brand" href="../../index.html" aria-label="Nubia accueil"><span class="brand-word" aria-hidden="true"><span>N</span><span>U</span><span>B</span><span>I</span><span>A</span></span><span class="brand-bean" aria-hidden="true"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15.8 3.5c3.4 2.2 4.9 6.7 3.2 10.7-1.9 4.5-7 6.9-11.2 5.1-4.1-1.7-5.7-6.9-3.6-11.4 2-4.4 7.4-7.1 11.6-4.4Z" /><path d="M8.3 18.7c1.3-2.4 1.4-4.4.2-6.5-1.1-2-.8-4 .9-6.1" /></svg></span></a><p><span data-i18n="da-footer-copy" data-fr="Café camerounais premium à Montréal. Du grain à la tasse, avec respect." data-en="Premium Cameroonian coffee in Montreal. From the farm to the cup, with respect.">Café camerounais premium à Montréal. Du grain à la tasse, avec respect.</span></p></div>
+    <nav><strong><span data-i18n="footer-shop-title" data-fr="Boutique" data-en="Shop">Boutique</span></strong><a href="../../collections/all/index.html"><span data-i18n="footer-catalogue" data-fr="Catalogue" data-en="Catalog">Catalogue</span></a><a href="../../cart/index.html"><span data-i18n="footer-cart" data-fr="Panier" data-en="Cart">Panier</span></a><a href="../../checkout/index.html">Checkout</a></nav>
+    <nav><strong><span data-i18n="footer-discover-title" data-fr="Découvrir" data-en="Discover">Découvrir</span></strong><a href="../../pages/apprendre/index.html">Guide</a><a href="../../pages/contact/index.html">Contact</a></nav>
+    <nav><strong><span data-i18n="footer-payment-title" data-fr="Paiement" data-en="Payment">Paiement</span></strong><span>Visa</span><span>Apple Pay</span><span>Google Pay</span></nav>
+  </footer>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <script>window.__NUBIA_EXPORT__ = true;window.__NUBIA_BOOTSTRAP__ = {"products":[{"slug":"onyx","name":"Onyx","label":"Profond / crémeux","price":"$15.75 CAD","status":"Profil signature","accent":"#9b5cff","soft":"rgba(155, 92, 255, 0.22)","image":"../../public/images/product-images/onyx/onyx-01.png","tile":"../../public/images/product-images/onyx/onyx-01.png","gallery":["../../public/images/product-images/onyx/onyx-01.png","../../public/images/product-images/onyx/onyx-02.png","../../public/images/product-images/onyx/onyx-03.png","../../public/images/product-images/onyx/onyx-04.png","../../public/images/product-images/onyx/onyx-05.png"],"origin":"Cameroun","region":"West Africa","roast":"Dark roast","process":"Washed","altitude":"1100-1600 MASL","harvest":"Nov-Feb","blend":"30% Robusta","ritual":"Heavy body","tagline":"Deep, bold, creamy.","description":"Pour ceux qui veulent un café profond, crémeux, avec une vraie présence en lait.","notes":["Dark chocolate","Roasted nuts","Black currant","Caramel","Spice"],"methods":["Espresso","Cappuccino","Latte","Mocha"],"brew":{"temp":"92 C","ratio":"1:2.1","time":"25-28s"},"scores":{"body":8.8,"acidity":6.2,"crema":8,"sweetness":7.4,"balance":8},"story":"Onyx est le profil signature pour un café intense mais enveloppant. Il garde une texture riche, une crema rassurante et une finale qui fonctionne autant en espresso qu'en lait.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/onyx.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-onyx.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-onyx.webp","tone":"violet"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-onyx.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-onyx.webp","copy":{"ritual":"Profond et crémeux","ritualEn":"Deep and creamy","promise":"Pour espresso, lait, crema dense et finale cacao qui reste.","promiseEn":"For espresso, milk drinks, dense crema and a cacao finish that lingers.","oneLine":"Le profil signature quand tu veux du poids sans agressivité.","oneLineEn":"The signature profile when you want weight without harshness."}},{"slug":"cameroun","name":"Cameroun","label":"Rond / smooth","price":"$14.99 CAD","status":"Profil origine","accent":"#7cc94a","soft":"rgba(124, 201, 74, 0.2)","image":"../../public/images/product-images/cameroun/cameroun-01.png","tile":"../../public/images/product-images/cameroun/cameroun-01.png","gallery":["../../public/images/product-images/cameroun/cameroun-01.png","../../public/images/product-images/cameroun/cameroun-02.png","../../public/images/product-images/cameroun/cameroun-03.png","../../public/images/product-images/cameroun/cameroun-04.png","../../public/images/product-images/cameroun/cameroun-05.png"],"origin":"Cameroun","region":"West Region","roast":"Medium-dark","process":"Washed","altitude":"1100-1600 MASL","harvest":"Nov-Feb","blend":"Mountain grown","ritual":"Smooth milk drinks","tagline":"Full body. Low acidity.","description":"Le profil le plus smooth pour les rituels quotidiens: rond, accessible, mais premium.","notes":["Roasted nuts","Cacao","Milk drinks","Caramel","Spice"],"methods":["Latte","Cappuccino","Flat white","Filter"],"brew":{"temp":"92 C","ratio":"1:2.2","time":"26-30s"},"scores":{"body":9.1,"acidity":3.2,"crema":8.6,"sweetness":6.8,"balance":8.4},"story":"Cameroun met l'origine au centre. C'est le profil qui donne à Nubia son ancrage: une tasse ronde, douce, basse en acidité, facile à aimer mais clairement premium.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/cameroun.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template%3Dcameroun.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-cameroun.webp","tone":"sage"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template%3Dcameroun.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-cameroun.webp","copy":{"ritual":"Rond et quotidien","ritualEn":"Round and everyday","promise":"Pour une tasse simple, ronde et fidèle, avec assez d'origine pour rester intéressante.","promiseEn":"For a simple, round and reliable cup, with enough origin character to stay interesting.","oneLine":"Le point d'ancrage de Nubia: quotidien, solide, jamais plat.","oneLineEn":"Nubia's anchor profile: everyday, solid, never flat."}},{"slug":"titan","name":"Titan","label":"Dense / cacao","price":"$17.40 CAD","status":"Profil puissant","accent":"#d87918","soft":"rgba(216, 121, 24, 0.2)","image":"../../public/images/product-images/titan/titan-01.png","tile":"../../public/images/product-images/titan/titan-01.png","gallery":["../../public/images/product-images/titan/titan-01.png","../../public/images/product-images/titan/titan-02.png","../../public/images/product-images/titan/titan-03.png","../../public/images/product-images/titan/titan-04.png","../../public/images/product-images/titan/titan-05.png"],"origin":"Multi-origin","region":"South America / Africa / Asia","roast":"Dark roast","process":"Washed","altitude":"1200-1800 MASL","harvest":"Nov-Feb","blend":"Power blend","ritual":"Full body","tagline":"Cacao, dark choco, nuts.","description":"Un dark roast puissant, dense, construit pour l'espresso et les methodes qui demandent du corps.","notes":["Dark chocolate","Cacao nibs","Roasted nuts","Burnt caramel"],"methods":["Espresso","Moka pot","French press","Cold brew"],"brew":{"temp":"93 C","ratio":"1:2.2","time":"28-32s"},"scores":{"body":9.2,"acidity":2.8,"crema":8.7,"sweetness":6.6,"balance":8.8},"story":"Titan est construit comme un moteur: dense, stable, rassurant. Il donne au client l'impression d'un cafe qui ne flanche pas, avec une presence cacao tres nette.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/titan.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-titan.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-titan.webp","tone":"copper"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-titan.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-titan.webp","copy":{"ritual":"Dense et cacao","ritualEn":"Dense and cacao","promise":"Pour ceux qui aiment une tasse robuste, rassurante, presque dessert.","promiseEn":"For people who like a robust, reassuring cup with a near-dessert finish.","oneLine":"Un profil construit pour tenir tête au lait, au sucre et aux longues journées.","oneLineEn":"A profile built to stand up to milk, sugar and long days."}},{"slug":"vulcan","name":"Vulcan","label":"Intense / épicé","price":"$17.90 CAD","status":"Profil intense","accent":"#e63129","soft":"rgba(230, 49, 41, 0.2)","image":"../../public/images/product-images/vulcan/vulcan-01.png","tile":"../../public/images/product-images/vulcan/vulcan-01.png","gallery":["../../public/images/product-images/vulcan/vulcan-01.png","../../public/images/product-images/vulcan/vulcan-02.png","../../public/images/product-images/vulcan/vulcan-03.png","../../public/images/product-images/vulcan/vulcan-04.png","../../public/images/product-images/vulcan/vulcan-05.png"],"origin":"West Africa","region":"Highland belt","roast":"Dark roast","process":"Washed","altitude":"1200-1800 MASL","harvest":"Nov-Feb","blend":"Most intense","ritual":"Maximum intensity","tagline":"Dark, intense, spiced.","description":"Le module le plus intense: cacao, dark choco, spices, crema dense et finish assumée.","notes":["Cacao","Dark chocolate","Baking spice","Molasses","Smoked wood"],"methods":["Espresso","Moka pot","French press","Cappuccino"],"brew":{"temp":"94 C","ratio":"1:2.0","time":"29-33s"},"scores":{"body":9.5,"acidity":2.4,"crema":8.9,"sweetness":6.2,"balance":7.8},"story":"Vulcan est le profil qui vend le frisson. Il doit sentir la chaleur, la pression, la densité. C'est le café pour ceux qui veulent que leur espresso ait du poids.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/vulcan.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-vulcan.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-vulcan.webp","tone":"red"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-vulcan.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-vulcan.webp","copy":{"ritual":"Intense et chaud","ritualEn":"Intense and warm","promise":"Pour les espressos qui doivent avoir du caractère, de la chaleur et une vraie finale.","promiseEn":"For espressos that need character, warmth and a real finish.","oneLine":"La version plus assumée: chaude, directe, mémorable.","oneLineEn":"The more assertive version: warm, direct, memorable."}},{"slug":"aurora","name":"Aurora","label":"Doux / raffiné","price":"$15.75 CAD","status":"Profil arabica","accent":"#d6a950","soft":"rgba(214, 169, 80, 0.2)","image":"../../public/images/product-images/aurora/aurora-01.png","tile":"../../public/images/product-images/aurora/aurora-01.png","gallery":["../../public/images/product-images/aurora/aurora-01.png","../../public/images/product-images/aurora/aurora-02.png","../../public/images/product-images/aurora/aurora-03.png","../../public/images/product-images/aurora/aurora-04.png","../../public/images/product-images/aurora/aurora-05.png"],"origin":"Selected Arabica","region":"High altitude","roast":"Medium-dark","process":"Washed","altitude":"1200-1800 MASL","harvest":"Nov-Feb","blend":"100% Arabica","ritual":"Refined sweetness","tagline":"Sweet, smooth, refined.","description":"Un profil plus doux et lumineux: milk chocolate, fruits rouges, miel, equilibre et finesse.","notes":["Milk chocolate","Red fruits","Honey","Roasted almonds","Brown sugar"],"methods":["Espresso","Pour-over","Filter","Latte"],"brew":{"temp":"92 C","ratio":"1:2.4","time":"26-30s"},"scores":{"body":8.3,"acidity":5.6,"crema":8.1,"sweetness":8.7,"balance":8.6},"story":"Aurora apporte la lumière dans l'univers Nubia. Il garde le côté premium, mais ouvre une expérience plus douce, plus accessible, plus élégante.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/aurora.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-aurora.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-aurora.webp","tone":"gold"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-aurora.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-aurora.webp","copy":{"ritual":"Doux et lumineux","ritualEn":"Soft and luminous","promise":"Pour les matins doux, les lattes lumineux et les tasses qui commencent sans effort.","promiseEn":"For soft mornings, luminous lattes and cups that start without effort.","oneLine":"Le profil le plus accessible: clair, doux, rassurant.","oneLineEn":"The most approachable profile: clear, soft and reassuring."}},{"slug":"atlas","name":"Atlas","label":"Équilibre / quotidien","price":"$15.40 CAD","status":"Profil equilibre","accent":"#2e86ff","soft":"rgba(46, 134, 255, 0.21)","image":"../../public/images/product-images/atlas/atlas-01.png","tile":"../../public/images/product-images/atlas/atlas-01.png","gallery":["../../public/images/product-images/atlas/atlas-01.png","../../public/images/product-images/atlas/atlas-02.png","../../public/images/product-images/atlas/atlas-03.png","../../public/images/product-images/atlas/atlas-04.png","../../public/images/product-images/atlas/atlas-05.png"],"origin":"Premium Arabica","region":"Signature selection","roast":"Medium roast","process":"Washed","altitude":"1200-1800 MASL","harvest":"Nov-Feb","blend":"100% Arabica","ritual":"Balanced everyday cup","tagline":"Balanced, full-bodied, dependable.","description":"Le point d'entrée signature: full body, structure équilibrée, caramel, choco et amandes grillées.","notes":["Caramel","Dark chocolate","Roasted almonds","Brown sugar","Toasted grains"],"methods":["Espresso","Pour-over","Filter","Latte"],"brew":{"temp":"92 C","ratio":"1:2.4","time":"26-30s"},"scores":{"body":8.7,"acidity":4.8,"crema":8.2,"sweetness":8,"balance":9},"story":"Atlas est le profil qui porte la collection. Il est assez riche pour vendre la qualité, assez balancé pour devenir le café quotidien.","visual":{"tile":"../../public/images/new-da-optimized/product%20titles/atlas.webp","desktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-atlas.webp","mobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-atlas.webp","tone":"blue"},"heroDesktop":"../../public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-atlas.webp","heroMobile":"../../public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-atlas.webp","copy":{"ritual":"Équilibre de tous les jours","ritualEn":"Everyday balance","promise":"Pour une tasse stable, élégante, facile à recommander et difficile à regretter.","promiseEn":"For a stable, elegant cup that is easy to recommend and hard to regret.","oneLine":"Le sac qui porte la routine sans devenir banal.","oneLineEn":"The bag that carries the routine without becoming ordinary."}}]};window.__NUBIA_PATH_PREFIX__ = "../../";window.__NUBIA_SITE_ORIGIN__ = "";</script>
+    <script type="module" src="../../src/nubia.js"></script>
+    
+  </body>
+</html>

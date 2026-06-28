@@ -1,0 +1,34 @@
+OPTION SIMPLE - GITHUB + NETLIFY
+
+1. Cree un repo vide sur GitHub
+   Exemple:
+   https://github.com/new
+
+   Nom suggere:
+   nubia-site
+
+   Important:
+   - repo vide
+   - ne pas cocher README
+   - ne pas cocher .gitignore
+   - ne pas cocher license
+
+2. Ouvre PowerShell dans ce dossier:
+   C:\Users\TEST\Downloads\robinx-marketing-workspace\deliverables\nubia-site-demo\output\robinx-delivery-offline\nubia-site-static
+
+3. Lance UNE commande:
+
+   powershell -ExecutionPolicy Bypass -File .\publish-github.ps1 https://github.com/TON-USERNAME/nubia-site.git
+
+4. Va sur Netlify
+   - Add new site
+   - Import an existing project
+   - GitHub
+   - choisis `nubia-site`
+   - deploy
+
+RESULTAT:
+- repo GitHub propre
+- lien Netlify stable
+- plus de lien temporaire weird
+- plus de zip a envoyer au client

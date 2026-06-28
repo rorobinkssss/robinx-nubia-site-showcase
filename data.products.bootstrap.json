@@ -1,0 +1,423 @@
+{
+  "products": [
+    {
+      "slug": "onyx",
+      "name": "Onyx",
+      "label": "Profond / crémeux",
+      "price": "$15.75 CAD",
+      "status": "Profil signature",
+      "accent": "#9b5cff",
+      "soft": "rgba(155, 92, 255, 0.22)",
+      "image": "/public/images/product-images/onyx/onyx-01.png",
+      "tile": "/public/images/product-images/onyx/onyx-01.png",
+      "gallery": [
+        "/public/images/product-images/onyx/onyx-01.png",
+        "/public/images/product-images/onyx/onyx-02.png",
+        "/public/images/product-images/onyx/onyx-03.png",
+        "/public/images/product-images/onyx/onyx-04.png",
+        "/public/images/product-images/onyx/onyx-05.png"
+      ],
+      "origin": "Cameroun",
+      "region": "West Africa",
+      "roast": "Dark roast",
+      "process": "Washed",
+      "altitude": "1100-1600 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "30% Robusta",
+      "ritual": "Heavy body",
+      "tagline": "Deep, bold, creamy.",
+      "description": "Pour ceux qui veulent un café profond, crémeux, avec une vraie présence en lait.",
+      "notes": [
+        "Dark chocolate",
+        "Roasted nuts",
+        "Black currant",
+        "Caramel",
+        "Spice"
+      ],
+      "methods": [
+        "Espresso",
+        "Cappuccino",
+        "Latte",
+        "Mocha"
+      ],
+      "brew": {
+        "temp": "92 C",
+        "ratio": "1:2.1",
+        "time": "25-28s"
+      },
+      "scores": {
+        "body": 8.8,
+        "acidity": 6.2,
+        "crema": 8,
+        "sweetness": 7.4,
+        "balance": 8
+      },
+      "story": "Onyx est le profil signature pour un café intense mais enveloppant. Il garde une texture riche, une crema rassurante et une finale qui fonctionne autant en espresso qu'en lait.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/onyx.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-onyx.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-onyx.webp",
+        "tone": "violet"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-onyx.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-onyx.webp",
+      "copy": {
+        "ritual": "Profond et crémeux",
+        "ritualEn": "Deep and creamy",
+        "promise": "Pour espresso, lait, crema dense et finale cacao qui reste.",
+        "promiseEn": "For espresso, milk drinks, dense crema and a cacao finish that lingers.",
+        "oneLine": "Le profil signature quand tu veux du poids sans agressivité.",
+        "oneLineEn": "The signature profile when you want weight without harshness."
+      }
+    },
+    {
+      "slug": "cameroun",
+      "name": "Cameroun",
+      "label": "Rond / smooth",
+      "price": "$14.99 CAD",
+      "status": "Profil origine",
+      "accent": "#7cc94a",
+      "soft": "rgba(124, 201, 74, 0.2)",
+      "image": "/public/images/product-images/cameroun/cameroun-01.png",
+      "tile": "/public/images/product-images/cameroun/cameroun-01.png",
+      "gallery": [
+        "/public/images/product-images/cameroun/cameroun-01.png",
+        "/public/images/product-images/cameroun/cameroun-02.png",
+        "/public/images/product-images/cameroun/cameroun-03.png",
+        "/public/images/product-images/cameroun/cameroun-04.png",
+        "/public/images/product-images/cameroun/cameroun-05.png"
+      ],
+      "origin": "Cameroun",
+      "region": "West Region",
+      "roast": "Medium-dark",
+      "process": "Washed",
+      "altitude": "1100-1600 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "Mountain grown",
+      "ritual": "Smooth milk drinks",
+      "tagline": "Full body. Low acidity.",
+      "description": "Le profil le plus smooth pour les rituels quotidiens: rond, accessible, mais premium.",
+      "notes": [
+        "Roasted nuts",
+        "Cacao",
+        "Milk drinks",
+        "Caramel",
+        "Spice"
+      ],
+      "methods": [
+        "Latte",
+        "Cappuccino",
+        "Flat white",
+        "Filter"
+      ],
+      "brew": {
+        "temp": "92 C",
+        "ratio": "1:2.2",
+        "time": "26-30s"
+      },
+      "scores": {
+        "body": 9.1,
+        "acidity": 3.2,
+        "crema": 8.6,
+        "sweetness": 6.8,
+        "balance": 8.4
+      },
+      "story": "Cameroun met l'origine au centre. C'est le profil qui donne à Nubia son ancrage: une tasse ronde, douce, basse en acidité, facile à aimer mais clairement premium.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/cameroun.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template%3Dcameroun.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-cameroun.webp",
+        "tone": "sage"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template%3Dcameroun.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-cameroun.webp",
+      "copy": {
+        "ritual": "Rond et quotidien",
+        "ritualEn": "Round and everyday",
+        "promise": "Pour une tasse simple, ronde et fidèle, avec assez d'origine pour rester intéressante.",
+        "promiseEn": "For a simple, round and reliable cup, with enough origin character to stay interesting.",
+        "oneLine": "Le point d'ancrage de Nubia: quotidien, solide, jamais plat.",
+        "oneLineEn": "Nubia's anchor profile: everyday, solid, never flat."
+      }
+    },
+    {
+      "slug": "titan",
+      "name": "Titan",
+      "label": "Dense / cacao",
+      "price": "$17.40 CAD",
+      "status": "Profil puissant",
+      "accent": "#d87918",
+      "soft": "rgba(216, 121, 24, 0.2)",
+      "image": "/public/images/product-images/titan/titan-01.png",
+      "tile": "/public/images/product-images/titan/titan-01.png",
+      "gallery": [
+        "/public/images/product-images/titan/titan-01.png",
+        "/public/images/product-images/titan/titan-02.png",
+        "/public/images/product-images/titan/titan-03.png",
+        "/public/images/product-images/titan/titan-04.png",
+        "/public/images/product-images/titan/titan-05.png"
+      ],
+      "origin": "Multi-origin",
+      "region": "South America / Africa / Asia",
+      "roast": "Dark roast",
+      "process": "Washed",
+      "altitude": "1200-1800 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "Power blend",
+      "ritual": "Full body",
+      "tagline": "Cacao, dark choco, nuts.",
+      "description": "Un dark roast puissant, dense, construit pour l'espresso et les methodes qui demandent du corps.",
+      "notes": [
+        "Dark chocolate",
+        "Cacao nibs",
+        "Roasted nuts",
+        "Burnt caramel"
+      ],
+      "methods": [
+        "Espresso",
+        "Moka pot",
+        "French press",
+        "Cold brew"
+      ],
+      "brew": {
+        "temp": "93 C",
+        "ratio": "1:2.2",
+        "time": "28-32s"
+      },
+      "scores": {
+        "body": 9.2,
+        "acidity": 2.8,
+        "crema": 8.7,
+        "sweetness": 6.6,
+        "balance": 8.8
+      },
+      "story": "Titan est construit comme un moteur: dense, stable, rassurant. Il donne au client l'impression d'un cafe qui ne flanche pas, avec une presence cacao tres nette.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/titan.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-titan.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-titan.webp",
+        "tone": "copper"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-titan.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-titan.webp",
+      "copy": {
+        "ritual": "Dense et cacao",
+        "ritualEn": "Dense and cacao",
+        "promise": "Pour ceux qui aiment une tasse robuste, rassurante, presque dessert.",
+        "promiseEn": "For people who like a robust, reassuring cup with a near-dessert finish.",
+        "oneLine": "Un profil construit pour tenir tête au lait, au sucre et aux longues journées.",
+        "oneLineEn": "A profile built to stand up to milk, sugar and long days."
+      }
+    },
+    {
+      "slug": "vulcan",
+      "name": "Vulcan",
+      "label": "Intense / épicé",
+      "price": "$17.90 CAD",
+      "status": "Profil intense",
+      "accent": "#e63129",
+      "soft": "rgba(230, 49, 41, 0.2)",
+      "image": "/public/images/product-images/vulcan/vulcan-01.png",
+      "tile": "/public/images/product-images/vulcan/vulcan-01.png",
+      "gallery": [
+        "/public/images/product-images/vulcan/vulcan-01.png",
+        "/public/images/product-images/vulcan/vulcan-02.png",
+        "/public/images/product-images/vulcan/vulcan-03.png",
+        "/public/images/product-images/vulcan/vulcan-04.png",
+        "/public/images/product-images/vulcan/vulcan-05.png"
+      ],
+      "origin": "West Africa",
+      "region": "Highland belt",
+      "roast": "Dark roast",
+      "process": "Washed",
+      "altitude": "1200-1800 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "Most intense",
+      "ritual": "Maximum intensity",
+      "tagline": "Dark, intense, spiced.",
+      "description": "Le module le plus intense: cacao, dark choco, spices, crema dense et finish assumée.",
+      "notes": [
+        "Cacao",
+        "Dark chocolate",
+        "Baking spice",
+        "Molasses",
+        "Smoked wood"
+      ],
+      "methods": [
+        "Espresso",
+        "Moka pot",
+        "French press",
+        "Cappuccino"
+      ],
+      "brew": {
+        "temp": "94 C",
+        "ratio": "1:2.0",
+        "time": "29-33s"
+      },
+      "scores": {
+        "body": 9.5,
+        "acidity": 2.4,
+        "crema": 8.9,
+        "sweetness": 6.2,
+        "balance": 7.8
+      },
+      "story": "Vulcan est le profil qui vend le frisson. Il doit sentir la chaleur, la pression, la densité. C'est le café pour ceux qui veulent que leur espresso ait du poids.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/vulcan.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-vulcan.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-vulcan.webp",
+        "tone": "red"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-vulcan.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-vulcan.webp",
+      "copy": {
+        "ritual": "Intense et chaud",
+        "ritualEn": "Intense and warm",
+        "promise": "Pour les espressos qui doivent avoir du caractère, de la chaleur et une vraie finale.",
+        "promiseEn": "For espressos that need character, warmth and a real finish.",
+        "oneLine": "La version plus assumée: chaude, directe, mémorable.",
+        "oneLineEn": "The more assertive version: warm, direct, memorable."
+      }
+    },
+    {
+      "slug": "aurora",
+      "name": "Aurora",
+      "label": "Doux / raffiné",
+      "price": "$15.75 CAD",
+      "status": "Profil arabica",
+      "accent": "#d6a950",
+      "soft": "rgba(214, 169, 80, 0.2)",
+      "image": "/public/images/product-images/aurora/aurora-01.png",
+      "tile": "/public/images/product-images/aurora/aurora-01.png",
+      "gallery": [
+        "/public/images/product-images/aurora/aurora-01.png",
+        "/public/images/product-images/aurora/aurora-02.png",
+        "/public/images/product-images/aurora/aurora-03.png",
+        "/public/images/product-images/aurora/aurora-04.png",
+        "/public/images/product-images/aurora/aurora-05.png"
+      ],
+      "origin": "Selected Arabica",
+      "region": "High altitude",
+      "roast": "Medium-dark",
+      "process": "Washed",
+      "altitude": "1200-1800 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "100% Arabica",
+      "ritual": "Refined sweetness",
+      "tagline": "Sweet, smooth, refined.",
+      "description": "Un profil plus doux et lumineux: milk chocolate, fruits rouges, miel, equilibre et finesse.",
+      "notes": [
+        "Milk chocolate",
+        "Red fruits",
+        "Honey",
+        "Roasted almonds",
+        "Brown sugar"
+      ],
+      "methods": [
+        "Espresso",
+        "Pour-over",
+        "Filter",
+        "Latte"
+      ],
+      "brew": {
+        "temp": "92 C",
+        "ratio": "1:2.4",
+        "time": "26-30s"
+      },
+      "scores": {
+        "body": 8.3,
+        "acidity": 5.6,
+        "crema": 8.1,
+        "sweetness": 8.7,
+        "balance": 8.6
+      },
+      "story": "Aurora apporte la lumière dans l'univers Nubia. Il garde le côté premium, mais ouvre une expérience plus douce, plus accessible, plus élégante.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/aurora.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-aurora.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-aurora.webp",
+        "tone": "gold"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-aurora.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-aurora.webp",
+      "copy": {
+        "ritual": "Doux et lumineux",
+        "ritualEn": "Soft and luminous",
+        "promise": "Pour les matins doux, les lattes lumineux et les tasses qui commencent sans effort.",
+        "promiseEn": "For soft mornings, luminous lattes and cups that start without effort.",
+        "oneLine": "Le profil le plus accessible: clair, doux, rassurant.",
+        "oneLineEn": "The most approachable profile: clear, soft and reassuring."
+      }
+    },
+    {
+      "slug": "atlas",
+      "name": "Atlas",
+      "label": "Équilibre / quotidien",
+      "price": "$15.40 CAD",
+      "status": "Profil equilibre",
+      "accent": "#2e86ff",
+      "soft": "rgba(46, 134, 255, 0.21)",
+      "image": "/public/images/product-images/atlas/atlas-01.png",
+      "tile": "/public/images/product-images/atlas/atlas-01.png",
+      "gallery": [
+        "/public/images/product-images/atlas/atlas-01.png",
+        "/public/images/product-images/atlas/atlas-02.png",
+        "/public/images/product-images/atlas/atlas-03.png",
+        "/public/images/product-images/atlas/atlas-04.png",
+        "/public/images/product-images/atlas/atlas-05.png"
+      ],
+      "origin": "Premium Arabica",
+      "region": "Signature selection",
+      "roast": "Medium roast",
+      "process": "Washed",
+      "altitude": "1200-1800 MASL",
+      "harvest": "Nov-Feb",
+      "blend": "100% Arabica",
+      "ritual": "Balanced everyday cup",
+      "tagline": "Balanced, full-bodied, dependable.",
+      "description": "Le point d'entrée signature: full body, structure équilibrée, caramel, choco et amandes grillées.",
+      "notes": [
+        "Caramel",
+        "Dark chocolate",
+        "Roasted almonds",
+        "Brown sugar",
+        "Toasted grains"
+      ],
+      "methods": [
+        "Espresso",
+        "Pour-over",
+        "Filter",
+        "Latte"
+      ],
+      "brew": {
+        "temp": "92 C",
+        "ratio": "1:2.4",
+        "time": "26-30s"
+      },
+      "scores": {
+        "body": 8.7,
+        "acidity": 4.8,
+        "crema": 8.2,
+        "sweetness": 8,
+        "balance": 9
+      },
+      "story": "Atlas est le profil qui porte la collection. Il est assez riche pour vendre la qualité, assez balancé pour devenir le café quotidien.",
+      "visual": {
+        "tile": "/public/images/new-da-optimized/product%20titles/atlas.webp",
+        "desktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-atlas.webp",
+        "mobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-atlas.webp",
+        "tone": "blue"
+      },
+      "heroDesktop": "/public/images/new-da-optimized/desktop-16-9/5.%20Product%20Page%20Hero%20Template-atlas.webp",
+      "heroMobile": "/public/images/new-da-optimized/mobile-4-5/5.%20Product%20Page%20Hero%20Template-atlas.webp",
+      "copy": {
+        "ritual": "Équilibre de tous les jours",
+        "ritualEn": "Everyday balance",
+        "promise": "Pour une tasse stable, élégante, facile à recommander et difficile à regretter.",
+        "promiseEn": "For a stable, elegant cup that is easy to recommend and hard to regret.",
+        "oneLine": "Le sac qui porte la routine sans devenir banal.",
+        "oneLineEn": "The bag that carries the routine without becoming ordinary."
+      }
+    }
+  ]
+}
