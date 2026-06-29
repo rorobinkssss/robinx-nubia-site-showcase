@@ -5753,8 +5753,14 @@ body.page-store .da-pdp .quantity-row input {
 
 body[data-product-slug="aurora"] .da-pdp .gallery-stage img[src$="aurora-02.png"] {
   transform: scale(1.28) !important;
+  object-position: center 52% !important;
 }
 
 body[data-product-slug="aurora"] .da-pdp .gallery-thumbs img[src$="aurora-02.png"] {
   transform: scale(1.28) !important;
+}
+
+body.page-store[data-product-slug="aurora"] .da-pdp .product-gallery.da-gallery .gallery-stage img[src$="aurora-02.png"] {
+  transform: translateZ(0) scale(1.34) !important;
+  object-position: center 52% !important;
 }
