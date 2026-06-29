@@ -5650,10 +5650,10 @@ body.page-store .da-pdp .quantity-row input {
   body.page-store .da-pdp .product-gallery.da-gallery .gallery-stage {
     display: block !important;
     position: relative !important;
-    width: 100% !important;
-    margin: 0 !important;
+    width: calc(100% + 2px) !important;
+    margin: -1px -1px 0 !important;
     overflow: hidden !important;
-    border-radius: 7px 7px 0 0 !important;
+    border-radius: 8px 8px 0 0 !important;
     background: transparent !important;
     line-height: 0 !important;
     clip-path: none !important;
