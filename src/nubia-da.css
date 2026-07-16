@@ -2266,7 +2266,7 @@ body.page-store .ambient-aura {
 }
 
 .da-footer p {
-  max-width: 34ch;
+  max-width: none;
   margin: 12px 0 0;
 }
 

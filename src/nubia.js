@@ -933,7 +933,7 @@ function animateIntro() {
   if (prefersReduced) return;
   if ($(".da-site")) {
     const springEase = "cubic-bezier(.16,1,.3,1)";
-    waapi($$(".da-scene-copy, .da-hero-profile, .da-product-card, .da-shop-tools, .da-buy-box, .product-gallery, .da-form, .admin-panel, .admin-kpi"), [
+    waapi($$(".da-scene-copy, .da-hero-profile, .da-product-card, .da-shop-tools, .da-buy-box, .product-gallery, .admin-panel, .admin-kpi"), [
       { opacity: 0, transform: "translateY(14px)" },
       { opacity: 1, transform: "translateY(0)" }
     ], { duration: 420, delay: 40, easing: springEase }, 38);
