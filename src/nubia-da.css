@@ -1604,6 +1604,11 @@ body.page-store .ambient-aura {
   text-transform: none;
 }
 
+.da-contact-routes .da-contact-address-line,
+.da-contact-routes article p [data-i18n="contact-weekdays"] {
+  color: var(--da-gold);
+}
+
 .da-contact-routes a {
   width: max-content;
   color: #8a4e19;
