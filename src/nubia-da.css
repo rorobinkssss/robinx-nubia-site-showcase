@@ -1568,6 +1568,11 @@ body.page-store .ambient-aura {
   gap: 12px;
 }
 
+.da-contact-routes-title {
+  margin: 0 0 2px;
+  font-size: 1.85rem;
+}
+
 .da-contact-routes article {
   min-height: 0;
 }
@@ -1603,6 +1608,7 @@ body.page-store .ambient-aura {
 
 .da-contact .da-form input,
 .da-contact .da-form select,
+.da-contact .da-form textarea,
 .da-checkout .da-form input,
 .da-checkout .da-form select {
   min-height: 52px;
@@ -1620,6 +1626,7 @@ body.page-store .ambient-aura {
 }
 
 .da-contact .da-form input::placeholder,
+.da-contact .da-form textarea::placeholder,
 .da-checkout .da-form input::placeholder {
   color: color-mix(in srgb, var(--da-coffee) 54%, var(--da-cream-text));
   opacity: 1;
@@ -1628,6 +1635,7 @@ body.page-store .ambient-aura {
 
 .da-contact .da-form input:focus,
 .da-contact .da-form select:focus,
+.da-contact .da-form textarea:focus,
 .da-checkout .da-form input:focus,
 .da-checkout .da-form select:focus {
   border-color: color-mix(in srgb, var(--da-caramel) 58%, var(--da-coffee));
@@ -1637,6 +1645,13 @@ body.page-store .ambient-aura {
   box-shadow:
     inset 0 0 0 1px rgba(255, 255, 255, .46),
     0 0 0 4px color-mix(in srgb, var(--da-caramel) 16%, transparent);
+}
+
+.da-contact .da-form textarea {
+  min-height: 132px;
+  padding-top: 15px;
+  line-height: 1.5;
+  resize: vertical;
 }
 
 .cart-page-lines,

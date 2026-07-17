@@ -796,18 +796,34 @@ function initForms() {
       const data = new FormData(form);
       const mood = String(data.get("mood") || "balanced");
       const method = String(data.get("method") || "boutique");
+      const isContact = method === "contact";
       const product = { strong: "vulcan", smooth: "cameroun", sweet: "aurora", balanced: "atlas" }[mood] || "atlas";
       try {
-        await submitLead({
+        const payload = {
           email: String(data.get("email") || ""),
           name: String(data.get("name") || "Nubia lead"),
+          phone: String(data.get("phone") || ""),
+          comment: String(data.get("comment") || ""),
           interest: `${mood} / ${method}`,
-          product,
+          product: isContact ? null : product,
           path: location.pathname
-        });
-        if (output) output.innerHTML = state.lang === "en"
-          ? `Received. Suggested profile: <a href="${pathFor(`/products/${product}`)}">${product}</a>.`
-          : `Recu. Profil suggere: <a href="${pathFor(`/products/${product}`)}">${product}</a>.`;
+        };
+        if (isContact && !offlineMode && location.hostname.endsWith("netlify.app")) {
+          const body = new URLSearchParams({ "form-name": "contact", ...payload });
+          const response = await fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: body.toString()
+          });
+          if (!response.ok) throw new Error("Contact form failed");
+        } else {
+          await submitLead(payload);
+        }
+        if (output) output.innerHTML = isContact
+          ? (state.lang === "en" ? "Message received. We will get back to you shortly." : "Message reçu. Nous vous répondrons rapidement.")
+          : (state.lang === "en"
+            ? `Received. Suggested profile: <a href="${pathFor(`/products/${product}`)}">${product}</a>.`
+            : `Reçu. Profil suggéré : <a href="${pathFor(`/products/${product}`)}">${product}</a>.`);
         form.reset();
       } catch {
         if (output) output.textContent = state.lang === "en"

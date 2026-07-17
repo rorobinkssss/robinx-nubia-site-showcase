@@ -39,23 +39,27 @@
   </picture>
         <div class="da-scene-copy">
           <span class="da-label">Contact</span>
-          <h1 data-split data-i18n="da-contact-title" data-fr="Parle-nous du contexte. On te repond utilement." data-en="Tell us the context. We will answer usefully.">Parle-nous du contexte. On te repond utilement.</h1>
-          <p data-i18n="da-contact-copy" data-fr="Commande, bureau, distribution, collaboration: moins de formulaire froid, plus de prochaine etape claire." data-en="Order, office, distribution, partnership: less cold form, more clear next step.">Commande, bureau, distribution, collaboration: moins de formulaire froid, plus de prochaine etape claire.</p>
+          <h1 data-split data-i18n="da-contact-title" data-fr="Parlez-nous du contexte, On vous répond utilement!" data-en="Tell us the context, and we will respond usefully!">Parlez-nous du contexte, On vous répond utilement!</h1>
+          <p data-i18n="da-contact-copy" data-fr="Commande, bureau, distribution ou collaboration : décrivez-nous votre besoin, nous vous répondrons avec une solution claire et adaptée." data-en="Order, office, distribution or collaboration: describe your needs and we will respond with a clear, tailored solution.">Commande, bureau, distribution ou collaboration : décrivez-nous votre besoin, nous vous répondrons avec une solution claire et adaptée.</p>
         </div>
       </section>
       <section class="da-contact-grid">
-        <form class="contact-form da-form" data-ritual-form data-card>
+        <form class="contact-form da-form" name="contact" method="POST" data-netlify="true" data-ritual-form data-card>
+          <input type="hidden" name="form-name" value="contact" />
           <label><span><span data-i18n="contact-name" data-fr="Nom" data-en="Name">Nom</span></span><input name="name" type="text" autocomplete="name" placeholder="Ton nom" /></label>
           <label><span>Email</span><input name="email" type="email" autocomplete="email" placeholder="toi@email.com" required /></label>
-          <label><span><span data-i18n="contact-subject" data-fr="Sujet" data-en="Subject">Sujet</span></span><select name="mood"><option value="balanced" data-i18n="contact-option-order" data-fr="Commande boutique" data-en="Shop order">Commande boutique</option><option value="smooth" data-i18n="contact-option-distribution" data-fr="Distribution locale" data-en="Local distribution">Distribution locale</option><option value="strong" data-i18n="contact-option-brand" data-fr="Collaboration brand" data-en="Brand collaboration">Collaboration brand</option></select></label>
+          <label><span><span data-i18n="contact-phone" data-fr="Numéro de téléphone" data-en="Phone number">Numéro de téléphone</span></span><input name="phone" type="tel" autocomplete="tel" placeholder="514 000-0000" /></label>
+          <label><span><span data-i18n="contact-subject" data-fr="Sujet" data-en="Subject">Sujet</span></span><select name="mood"><option value="balanced" data-i18n="contact-option-order" data-fr="Commande boutique" data-en="Shop order">Commande boutique</option><option value="smooth" data-i18n="contact-option-distribution" data-fr="Distribution locale" data-en="Local distribution">Distribution locale</option><option value="strong" data-i18n="contact-option-brand" data-fr="Collaboration brand" data-en="Brand collaboration">Collaboration brand</option><option value="other" data-i18n="contact-option-other" data-fr="Autre" data-en="Other">Autre</option></select></label>
+          <label><span><span data-i18n="contact-comment" data-fr="Commentaire" data-en="Comment">Commentaire</span></span><textarea name="comment" rows="5" placeholder="Décrivez votre demande"></textarea></label>
           <input name="method" type="hidden" value="contact" />
           <button class="btn primary" type="submit"><span data-i18n="contact-submit-new" data-fr="Envoyer" data-en="Send">Envoyer</span></button>
           <output data-finder-result></output>
         </form>
         <div class="da-contact-routes">
-          <article><span>01</span><h2><span data-i18n="contact-route-shop" data-fr="Boutique" data-en="Shop">Boutique</span></h2><p><span data-i18n="contact-route-shop-copy" data-fr="Question produit, livraison, retour panier ou suivi." data-en="Product question, delivery, cart recovery or tracking.">Question produit, livraison, retour panier ou suivi.</span></p><a href="../../collections/all/index.html">Catalogue</a></article>
-          <article><span>02</span><h2>B2B local</h2><p><span data-i18n="contact-route-b2b-copy" data-fr="Bureau, restaurant, épicerie fine, marché ou événement." data-en="Office, restaurant, fine grocery, market or event.">Bureau, restaurant, épicerie fine, marché ou événement.</span></p><a href="../../products/cameroun/index.html"><span data-i18n="contact-route-origin" data-fr="Profil origine" data-en="Origin profile">Profil origine</span></a></article>
-          <article><span>03</span><h2>Brand</h2><p><span data-i18n="contact-route-brand-copy" data-fr="Collaboration, contenu, dégustation ou activation." data-en="Collaboration, content, tasting or activation.">Collaboration, contenu, dégustation ou activation.</span></p><a href="../../pages/apprendre/index.html">Guide</a></article>
+          <h2 class="da-contact-routes-title"><span data-i18n="contact-find-us" data-fr="Nous trouver" data-en="Find us">Nous trouver</span></h2>
+          <article><span>01</span><h2><span data-i18n="contact-address" data-fr="Adresse" data-en="Address">Adresse</span></h2><p>7998 Rue Jarry E, Anjou H1J 1H5</p></article>
+          <article><span>02</span><h2><span data-i18n="contact-hours" data-fr="Heures de bureau" data-en="Office hours">Heures de bureau</span></h2><p><span data-i18n="contact-weekdays" data-fr="Lundi – Vendredi" data-en="Monday – Friday">Lundi – Vendredi</span><br>9h – 17h</p></article>
+          <article><span>03</span><h2>Email</h2><p><a href="mailto:info@greennubiacoffee.com">info@greennubiacoffee.com</a></p><a href="https://www.google.com/maps?q=7998+Rue+Jarry+E,+Anjou,+QC+H1J+1H5" target="_blank" rel="noreferrer"><span data-i18n="contact-map" data-fr="Voir sur la carte" data-en="View on map">Voir sur la carte</span></a></article>
         </div>
       </section>
     </main><aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
